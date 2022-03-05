@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/home_nav">
+
+    <!-- Home fragment -->
+    <fragment
+        android:id="@+id/home_nav"
+        android:name="com.silkysys.umco.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_nav_to_explore_nav"
+            app:destination="@id/explore_nav" />
+    </fragment>
+
+
+    <!-- Explore fragment -->
+    <fragment
+        android:id="@+id/explore_nav"
+        android:name="com.silkysys.umco.ui.explore.ExploreFragment"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore">
+        <action
+            android:id="@+id/action_explore_nav_to_cart_nav"
+            app:destination="@id/cart_nav" />
+    </fragment>
+
+
+    <!-- Cart fragment -->
+    <fragment
+        android:id="@+id/cart_nav"
+        android:name="com.silkysys.umco.ui.cart.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart">
+        <action
+            android:id="@+id/action_cart_nav_to_favourite_nav"
+            app:destination="@id/favourite_nav" />
+        <action
+            android:id="@+id/action_cart_nav_to_explore_nav"
+            app:destination="@id/explore_nav" />
+        <action
+            android:id="@+id/action_cart_nav_to_home_nav"
+            app:destination="@id/home_nav" />
+    </fragment>
+
+
+    <!-- Favourite fragment -->
+    <fragment
+        android:id="@+id/favourite_nav"
+        android:name="com.silkysys.umco.ui.wishlist.WishlistFragment"
+        android:label="fragment_favourite"
+        tools:layout="@layout/fragment_favourite">
+        <action
+            android:id="@+id/action_favourite_nav_to_profile_nav"
+            app:destination="@id/profile_nav" />
+    </fragment>
+
+
+    <!-- Profile fragment -->
+    <fragment
+        android:id="@+id/profile_nav"
+        android:name="com.silkysys.umco.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profile_nav_to_home_nav"
+            app:destination="@id/home_nav" />
+    </fragment>
+
+
+    <!-- Global action to cart  -->
+    <action
+        android:id="@+id/action_global_cart_nav"
+        app:destination="@id/cart_nav" />
+
+
+    <!-- Global action to explore -->
+    <action
+        android:id="@+id/action_global_explore_nav"
+        app:destination="@id/explore_nav" />
+
+
+    <!-- Global action to home -->
+    <action
+        android:id="@+id/action_global_home_nav"
+        app:destination="@id/home_nav" />
+
+</navigation>

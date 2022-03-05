@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+
+    <!-- Secondary colors -->
+    <color name="colorSecondary">#FF03DAC5</color>
+    <color name="colorSecondaryDark">#FF018786</color>
+
+    <!-- Primary colors -->
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorPrimary">#ECEFF1</color>
+    <color name="colorPrimaryDark">#ECEFF1</color>
+
+
+    <!-- Button -->
+    <color name="primaryButton">#C10E0E</color>
+    <color name="secondaryButton">#33C10E0E</color>
+
+    <!-- Edittext -->
+    <color name="background_edittext">#0D000000</color>
+    <color name="text_color_hint">#bebec2</color>
+
+    <!-- RecyclerView layout -->
+    <color name="discount_rate">#1AFC3D54</color>
+    <color name="old_price">#66000000</color>
+    <color name="favourite_unselected">#4D000000</color>
+    <color name="banner">#80D2D2D2</color>
+    <color name="category_name">#80000000</color>
+    <color name="product_quantity">#0D000000</color>
+
+    <!-- Sub title -->
+    <color name="sub_title">#99000000</color>
+    <color name="next_tracker">#ced1da</color>
+
+
+</resources>

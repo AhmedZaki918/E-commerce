@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.order.TrackOrderActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="32dp">
+
+
+        <!-- Back button -->
+        <ImageView
+            android:id="@+id/iv_back"
+            style="@style/BackButton"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/go_back_cd"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <!-- Main label -->
+        <TextView
+            android:id="@+id/main_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="@string/order_details"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_back" />
+
+
+        <!-- Order id -->
+        <TextView
+            android:id="@+id/tv_order_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_label"
+            tools:text="ORDER ID-NSAD10048628688" />
+
+
+        <!-- Placed order -->
+        <TextView
+            android:id="@+id/tv_placed_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_order_id"
+            tools:text="placed on Jan 13, 2021" />
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/background_edittext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_placed_order" />
+
+
+        <!-- Delivery address label -->
+        <TextView
+            android:id="@+id/discount_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/delivery_address"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintStart_toEndOf="@+id/delivery_icon"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+
+        <!-- Delivery icon -->
+        <ImageView
+            android:id="@+id/delivery_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="@+id/mobile_icon"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            app:srcCompat="@drawable/ic_outline_local_shipping"
+            tools:ignore="ContentDescription" />
+
+
+        <!-- Customer name -->
+        <TextView
+            android:id="@+id/tv_customer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/discount_label"
+            app:layout_constraintTop_toBottomOf="@+id/discount_label"
+            tools:text="Ahmed Adel" />
+
+
+        <!-- Address -->
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/tv_customer_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_customer_name"
+            tools:text="King Abdullah road, riyadh, saudi arabia" />
+
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/background_edittext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_address" />
+
+
+        <!-- Mobile icon -->
+        <ImageView
+            android:id="@+id/mobile_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="@+id/shipment_icon"
+            app:layout_constraintTop_toBottomOf="@+id/view2"
+            app:srcCompat="@drawable/ic_outline_phone_callback"
+            tools:ignore="ContentDescription" />
+
+
+        <!-- Mobile number label -->
+        <TextView
+            android:id="@+id/mobile_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/mobile_number"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintStart_toEndOf="@+id/mobile_icon"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+
+        <!-- Mobile number -->
+        <TextView
+            android:id="@+id/tv_mobile_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/mobile_label"
+            app:layout_constraintTop_toBottomOf="@+id/mobile_label"
+            tools:text="+966 455 643 427" />
+
+
+        <!-- Shipment icon -->
+        <ImageView
+            android:id="@+id/shipment_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="@+id/tv_tracker_state"
+            app:layout_constraintTop_toBottomOf="@+id/tv_mobile_number"
+            app:srcCompat="@drawable/ic_outline_shipment"
+            tools:ignore="ContentDescription" />
+
+
+        <!-- Shipment label -->
+        <TextView
+            android:id="@+id/shipment_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/shipment_1"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintStart_toEndOf="@+id/shipment_icon"
+            app:layout_constraintTop_toTopOf="@+id/shipment_icon" />
+
+
+        <!-- Shipment id -->
+        <TextView
+            android:id="@+id/tv_shipment_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/poppins"
+            android:maxLength="21"
+            android:text="@string/test"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/shipment_label"
+            app:layout_constraintTop_toTopOf="@+id/shipment_label" />
+
+
+        <!-- Tracker indicator 1 -->
+        <ImageView
+            android:id="@+id/iv_tracker_1"
+            style="@style/Tracker"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/primaryButton"
+            app:layout_constraintEnd_toStartOf="@+id/iv_tracker_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shipment_icon"
+            tools:ignore="ContentDescription" />
+
+
+        <!-- Tracker indicator 2 -->
+        <ImageView
+            android:id="@+id/iv_tracker_2"
+            style="@style/Tracker"
+            android:background="@color/next_tracker"
+            app:layout_constraintEnd_toStartOf="@+id/iv_tracker_3"
+            app:layout_constraintStart_toEndOf="@+id/iv_tracker_1"
+            app:layout_constraintTop_toTopOf="@+id/iv_tracker_1"
+            tools:ignore="ContentDescription" />
+
+
+        <!-- Tracker indicator 3 -->
+        <ImageView
+            android:id="@+id/iv_tracker_3"
+            style="@style/Tracker"
+            android:background="@color/next_tracker"
+            app:layout_constraintEnd_toStartOf="@+id/iv_tracker_4"
+            app:layout_constraintStart_toEndOf="@+id/iv_tracker_2"
+            app:layout_constraintTop_toTopOf="@+id/iv_tracker_2"
+            tools:ignore="ContentDescription" />
+
+
+        <!-- Tracker indicator 4 -->
+        <ImageView
+            android:id="@+id/iv_tracker_4"
+            style="@style/Tracker"
+            android:layout_marginEnd="16dp"
+            android:background="@color/next_tracker"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_tracker_3"
+            app:layout_constraintTop_toTopOf="@+id/iv_tracker_3"
+            tools:ignore="ContentDescription" />
+
+
+        <!-- Tracker state -->
+        <TextView
+            android:id="@+id/tv_tracker_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorSecondary"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/iv_tracker_1"
+            app:layout_constraintTop_toBottomOf="@+id/iv_tracker_1"
+            tools:text="SHIPPED" />
+
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/background_edittext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tracker_state" />
+
+
+        <!-- Delivery date   -->
+        <TextView
+            android:id="@+id/tv_delivery_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/test"
+            android:textColor="@color/primaryButton"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/iv_tracker_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv_tracker_4" />
+
+
+        <!-- Delivery date label -->
+        <TextView
+            android:id="@+id/delivery_date_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/delivered_between"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@+id/tv_delivery_date"
+            app:layout_constraintTop_toTopOf="@+id/tv_delivery_date" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toTopOf="@+id/payment_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3"
+            tools:itemCount="1"
+            tools:listitem="@layout/layout_track_order" />
+
+
+        <!-- Payment method label -->
+        <TextView
+            android:id="@+id/payment_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/payment_method"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rv_items" />
+
+
+        <!-- Payment method icon -->
+        <ImageView
+            android:id="@+id/iv_payment_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:alpha="0.5"
+            app:layout_constraintStart_toStartOf="@+id/payment_label"
+            app:layout_constraintTop_toBottomOf="@+id/payment_label"
+            app:srcCompat="@drawable/ic_cash_on_delivery"
+            tools:ignore="ContentDescription" />
+
+
+        <!-- Payment method -->
+        <TextView
+            android:id="@+id/tv_payment_method"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/sub_title"
+            app:layout_constraintStart_toEndOf="@+id/iv_payment_icon"
+            app:layout_constraintTop_toTopOf="@+id/iv_payment_icon"
+            tools:text="Cash on Delivery" />
+
+
+        <!-- Order summary label -->
+        <TextView
+            android:id="@+id/order_summary_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/order_summary"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/payment_label"
+            app:layout_constraintTop_toBottomOf="@+id/tv_payment_method" />
+
+
+        <!-- Subtotal label -->
+        <TextView
+            android:id="@+id/subtotal_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/subtotal"
+            android:textColor="@color/sub_title"
+            app:layout_constraintStart_toStartOf="@+id/order_summary_label"
+            app:layout_constraintTop_toBottomOf="@+id/order_summary_label" />
+
+
+        <!-- Delivery label -->
+        <TextView
+            android:id="@+id/delivery_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/delivery"
+            android:textColor="@color/sub_title"
+            app:layout_constraintStart_toStartOf="@+id/subtotal_label"
+            app:layout_constraintTop_toBottomOf="@+id/subtotal_label" />
+
+
+        <!-- Tax label -->
+        <TextView
+            android:id="@+id/tax_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/total_tax"
+            android:textColor="@color/sub_title"
+            app:layout_constraintStart_toStartOf="@+id/delivery_label"
+            app:layout_constraintTop_toBottomOf="@+id/delivery_label" />
+
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/background_edittext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tax_label" />
+
+
+        <!-- Subtotal -->
+        <TextView
+            android:id="@+id/tv_subtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/subtotal_label"
+            tools:text="$ 156.6" />
+
+
+        <!-- Delivery -->
+        <TextView
+            android:id="@+id/tv_delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_subtotal"
+            tools:text="$ 30" />
+
+
+        <!-- Total tax -->
+        <TextView
+            android:id="@+id/tv_tax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_delivery"
+            tools:text="$ 14" />
+
+
+        <!-- Total label -->
+        <TextView
+            android:id="@+id/total_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/total"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tax_label"
+            app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+
+        <!-- Total -->
+        <TextView
+            android:id="@+id/tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/total_label"
+            tools:text="$ 200.6" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

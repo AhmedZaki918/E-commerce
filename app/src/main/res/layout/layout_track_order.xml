@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <!-- Product name -->
+    <TextView
+        android:id="@+id/tv_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/sub_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Chicken Deluxe Fillet" />
+
+
+    <!-- Product caption -->
+    <TextView
+        android:id="@+id/tv_product_caption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintStart_toStartOf="@+id/tv_product_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_product_name"
+        app:layout_constraintWidth_percent="0.65"
+        tools:text="Ryan Hoover-funded weird European NFT startup. Ethereum ecosystem-based cloud hosting. DogeCoin buying growth hacker. Nostalgic YikYaking Instagram Employee. Y-combinator funded, self driving car startup." />
+
+
+    <!-- Product image -->
+    <ImageView
+        android:id="@+id/iv_productImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_product_caption"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_product_caption"
+        app:srcCompat="@drawable/preview_cart"
+        tools:ignore="ContentDescription" />
+
+
+    <!-- Product price -->
+    <TextView
+        android:id="@+id/tv_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_product_caption"
+        app:layout_constraintTop_toBottomOf="@+id/tv_product_caption"
+        tools:text="$ 156.6" />
+
+
+    <!-- Quantity label -->
+    <TextView
+        android:id="@+id/quantity_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/qty"
+        android:textColor="@color/sub_title"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_product_price"
+        app:layout_constraintTop_toBottomOf="@+id/tv_product_price" />
+
+
+    <!-- Quantity -->
+    <TextView
+        android:id="@+id/tv_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/sub_title"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/quantity_label"
+        app:layout_constraintTop_toTopOf="@+id/quantity_label"
+        tools:text="30" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

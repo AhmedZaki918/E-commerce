@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/checkbox_state.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_baseline_edit.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_cart.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_cart_no_alpha.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_delete_btn.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_explore.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_favorite_selected.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_favorite_unselected.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_favourite.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_favourite_unselected.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_home.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_outline_edit.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_outline_local_shipping.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_placeholder.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_profile.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/ic_search_custom.xml" value="0.1685" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/preview_image.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/rounded_banner.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/rounded_textview.xml" value="0.185" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/rounded_view.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/tv_rounded_category.xml" value="0.185" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_account_settings.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_billing_adress.xml" value="0.2182410423452769" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_checkout.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_create_address.xml" value="0.2182410423452769" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_delivery_time.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_login.xml" value="0.2864471996579735" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_main.xml" value="0.28239763613338964" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_my_orders.xml" value="0.27944280287040946" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_order_details.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_order_summary.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_order_track.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_payment.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_reset_passsword.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_search.xml" value="0.2864471996579735" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_select_category.xml" value="0.2828197551709582" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_shipping.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_shipping_address.xml" value="0.2182410423452769" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_single_product.xml" value="0.2864471996579735" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_splash.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_update_address.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_user_address.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/activity_welcome.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/alert_go_cart.xml" value="0.2182410423452769" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/descendant_category.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/fragment_cart.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/fragment_explore.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/fragment_favourite.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/fragment_home.xml" value="0.2864471996579735" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/fragment_profile.xml" value="0.2828197551709582" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/ic_cart_no_alpha.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_address.xml" value="0.21791530944625406" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_banner.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_bottom_sheet.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_cart.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_category.xml" value="0.2864471996579735" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_explore.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_favorite.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_filter.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_home.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_order.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_order_nested.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_order_summary.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_orders.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_payment_method.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_product_desc.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_product_only.xml" value="0.2864471996579735" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_select_category.xml" value="0.2182410423452769" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_shipping_method.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_single_order.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_time.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_track_order.xml" value="0.22006578947368421" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/layout/layout_weekdays.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/menu/bottom_nav.xml" value="0.2182410423452769" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/umco_android_app/app/src/main/res/drawable/ic_shipping_box.xml" value="0.22833876221498373" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/umco_android_app/app/src/main/res/layout/activity_account_settings.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/umco_android_app/app/src/main/res/layout/activity_checkout.xml" value="0.21151315789473685" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/umco_android_app/app/src/main/res/layout/activity_single_product.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/umco_android_app/app/src/main/res/layout/alert_go_cart.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/umco_android_app/app/src/main/res/layout/fragment_cart.xml" value="0.22039473684210525" />
+        <entry key="..\:/Users/Ahmed/AndroidStudioProjects/umco_android_app/app/src/main/res/menu/bottom_nav.xml" value="0.22039473684210525" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.15" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

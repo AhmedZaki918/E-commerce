@@ -1,0 +1,25 @@
+package com.silkysys.umco.data.model.cart
+
+data class Data(
+    val tax_total: String = "",
+    val formated_discount: String = "",
+    val base_sub_total: String = "",
+    val is_guest: Int = 0,
+    val items_qty: String = "",
+    val grand_total: String = "",
+    val formated_sub_total: String = "",
+    val formated_tax_total: String = "",
+    val items_count: String,
+    val channel: String = "",
+    val discount: String = "",
+    val created_at: String = "",
+    val base_tax_total: String = "",
+    val billing_address: String = "",
+    val formated_base_sub_total: String = "",
+    val formated_base_grand_total: String = "",
+    val customer_last_name: String = "",
+    val formated_grand_total: String = "",
+    val updated_at: String = "",
+    val shipping_method: String = "",
+    val items: List<ItemsItem>,
+)

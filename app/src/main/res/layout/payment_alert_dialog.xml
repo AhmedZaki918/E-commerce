@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="24dp">
+
+
+        <!-- Cancel button -->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_x_button" />
+
+
+        <!-- Add Card label -->
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/add_card"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <!-- Card number -->
+        <EditText
+            android:id="@+id/et_card_number"
+            style="@style/Edittext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:autofillHints="Card Number"
+            android:drawableEnd="@drawable/ic_visa"
+            android:hint="@string/card_number"
+            android:inputType="number"
+            android:maxLength="19"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_cancel" />
+
+
+        <!-- Expire date -->
+        <EditText
+            android:id="@+id/et_expire_date"
+            style="@style/Edittext"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:autofillHints="MM/YYYY"
+            android:hint="@string/expire_date"
+            android:inputType="datetime"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_card_number"
+            app:layout_constraintWidth_percent="0.5" />
+
+
+        <!-- CVV -->
+        <EditText
+            android:id="@+id/et_cvv"
+            style="@style/Edittext"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:autofillHints="CVV"
+            android:hint="@string/cvv"
+            android:inputType="datetime"
+            app:layout_constraintEnd_toEndOf="@+id/et_card_number"
+            app:layout_constraintTop_toTopOf="@+id/et_expire_date"
+            app:layout_constraintWidth_percent="0.35" />
+
+
+        <!-- Full name -->
+        <EditText
+            android:id="@+id/et_full_name"
+            style="@style/Edittext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:autofillHints="Full Name"
+            android:hint="@string/full_name"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_cvv" />
+
+
+        <!-- Pay button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_pay"
+            style="@style/PrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:text="@string/pay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_full_name" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
