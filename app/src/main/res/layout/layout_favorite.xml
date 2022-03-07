@@ -32,7 +32,6 @@
         android:fontFamily="@font/poppins"
         android:maxLength="24"
         android:textColor="@color/colorBlack"
-        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/iv_product"
         app:layout_constraintTop_toTopOf="@+id/iv_product"
@@ -47,8 +46,6 @@
         android:layout_marginStart="8dp"
         android:fontFamily="@font/poppins"
         android:textColor="@color/primaryButton"
-        android:textSize="12sp"
-        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/iv_product"
         app:layout_constraintTop_toBottomOf="@+id/tv_date"
         tools:text="$5.22" />

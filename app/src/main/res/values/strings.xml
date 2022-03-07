@@ -70,6 +70,7 @@
     <!-- Favorite Screen -->
     <string name="favorite">Favorite</string>
     <string name="saved_on">Saved on</string>
+    <string name="sar_currency">SAR</string>
 
 
     <!-- Profile Screen -->

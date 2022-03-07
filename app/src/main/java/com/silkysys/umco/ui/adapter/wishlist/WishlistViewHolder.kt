@@ -17,8 +17,9 @@ class WishlistViewHolder(
             currentItem.apply {
                 setupPicasso(base_image.original_image_url, ivProduct)
                 tvTitle.text = name
-                tvPrice.text = price
-                tvDate.text = created_at
+                tvPrice.text = formated_price
+                val formattedDate = created_at.substring(0, created_at.indexOf("T"))
+                tvDate.text = formattedDate
                 // Click listener
                 ibDelete.setOnClickListener { onWishlistDetails.removeItem(currentItem) }
             }

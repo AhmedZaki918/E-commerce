@@ -16,10 +16,8 @@ import com.silkysys.umco.data.network.Resource
 import com.silkysys.umco.databinding.ActivitySelectCategoryBinding
 import com.silkysys.umco.ui.adapter.explore.AllCategoriesAdapter
 import com.silkysys.umco.ui.adapter.explore.CategoryAdapter
-import com.silkysys.umco.util.Coroutines
-import com.silkysys.umco.util.OnItemClick
-import com.silkysys.umco.util.handleApiError
-import com.silkysys.umco.util.toast
+import com.silkysys.umco.ui.detail.SingleProductActivity
+import com.silkysys.umco.util.*
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
@@ -84,11 +82,20 @@ class SelectCategoryActivity : AppCompatActivity(), View.OnClickListener, OnItem
 
 
     override fun <T> onItemDetails(model: T) {
-        model as DataItem
-        binding.apply {
-            rvResults.visibility = INVISIBLE
-            progressBarCategory.visibility = VISIBLE
-            updateSelectedCategory(model)
+        // Go to details screen for a specific item
+        if (model is com.silkysys.umco.data.model.products.byCategory.DataItem) {
+            startActivity(
+                Constants.PRODUCT_DETAILS,
+                model,
+                SingleProductActivity::class.java
+            )
+        } else {
+            model as DataItem
+            binding.apply {
+                rvResults.visibility = INVISIBLE
+                progressBarCategory.visibility = VISIBLE
+                updateSelectedCategory(model)
+            }
         }
     }
 

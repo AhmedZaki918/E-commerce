@@ -30,7 +30,6 @@ class WishlistFragment : BaseFragment<FragmentFavouriteBinding>(FragmentFavourit
         }
     }
 
-
     override fun onClick(item: View) {
         when (item.id) {
             R.id.iv_search -> requireContext().startActivity(SearchActivity::class.java)

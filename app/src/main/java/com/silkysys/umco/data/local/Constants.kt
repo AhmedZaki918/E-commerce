@@ -47,6 +47,7 @@ object Constants {
     const val MINIMUM_QTY = 1
     const val ADD_ONE = 1
     const val REMOVE_ONE = -1
+    const val SPACE = " "
 
     // Order screen
     const val PAYPAL = "paypal_smart_button"
