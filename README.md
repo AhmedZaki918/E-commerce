@@ -4,6 +4,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
+* [Functionality](#functionality)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [YouTube Link](#youtube-link)
@@ -37,6 +38,12 @@ e ecommerce app lets the users to buy products online.
 <img src="images/21-track order.jpg" width="200">
 <img src="images/22-track order.jpg" width="200">
 <img src="images/23-all customer orders.jpg" width="200">
+
+## Functionality
+- User authentication (login, signup, logout)
+- Products (sliders, categories, filter by category)
+- Cart (add, update, remove)
+- Address ()
 
 ## Technologies
 
