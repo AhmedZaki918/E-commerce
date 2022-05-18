@@ -57,4 +57,17 @@ e ecommerce app lets the users to buy products online.
 - Navigation  2.5.0-rc01 (https://developer.android.com/guide/navigation/navigation-getting-started?authuser=2)
 - Lifecycle   2.4.1(https://developer.android.com/jetpack/androidx/releases/lifecycle)
 
+## Setup
+
+To run this project, install it by download or clone.
+Then login using this data to test:
+username: mohamedzaki
+password: 12345
+
+#### System requirements
+- Android Studio Chipmunk | 2021.2.1
+- Minimum sdk v21
+- Target sdk v31
+- Compile sdk v31
+
 
