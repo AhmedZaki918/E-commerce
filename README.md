@@ -15,9 +15,28 @@ e ecommerce app lets the users to buy products online.
 
 ## Screenshots
 
--jjhjh
--jkjkk
--lkkk
+<img src="images/1-splash.jpg" width="200" > <img src="images/2-welcome.jpg" width="200">
+<img src="images/3-login.jpg" width="200">
+<img src="images/4-home.jpg" width="200">
+<img src="images/5-home.jpg" width="200">
+<img src="images/6-details.jpg" width="200">
+<img src="images/7-cart empty.jpg" width="200">
+<img src="images/8-cart.jpg" width="200">
+<img src="images/9-wishlist.jpg" width="200">
+<img src="images/10-profile.jpg" width="200">
+<img src="images/11-order empty.jpg" width="200">
+<img src="images/12-history empty.jpg" width="200">
+<img src="images/13-empty address.jpg" width="200">
+<img src="images/14-create address.jpg" width="200">
+<img src="images/15- address created.jpg" width="200">
+<img src="images/16-update address.jpg" width="200">
+<img src="images/17-shipping.jpg" width="200">
+<img src="images/18-payment.jpg" width="200">
+<img src="images/19-place order.jpg" width="200">
+<img src="images/20-order completed.jpg" width="200">
+<img src="images/21-track order.jpg" width="200">
+<img src="images/22-track order.jpg" width="200">
+<img src="images/23-all customer orders.jpg" width="200">
 
 ## Technologies
 
