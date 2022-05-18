@@ -13,10 +13,10 @@ import com.silkysys.umco.data.local.Constants
 import com.silkysys.umco.data.network.Resource
 import com.silkysys.umco.databinding.ActivityLoginBinding
 import com.silkysys.umco.ui.main.MainActivity
+import com.silkysys.umco.util.AuthViewModel
 import com.silkysys.umco.util.handleApiError
 import com.silkysys.umco.util.openUrl
 import com.silkysys.umco.util.startActivity
-import com.squareup.picasso.Picasso
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -24,7 +24,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var binding: ActivityLoginBinding
     private var currentStatus = false
-    private lateinit var viewModel: LoginViewModel
+    private lateinit var viewModel: AuthViewModel
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,7 +33,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(binding.root)
 
         setClickListeners()
-        viewModel = ViewModelProvider(this)[LoginViewModel::class.java]
+        viewModel = ViewModelProvider(this)[AuthViewModel::class.java]
         // Observe the changes on login response via live data
         viewModel.loginResponse.observe(this) { response ->
             binding.btnLogin.isClickable = true

@@ -70,4 +70,11 @@ object Constants {
     const val TWELVE_PM = "12:00 PM - 02:00 PM"
     const val TWO_PM = "02:00 PM - 04:00 PM"
     const val FOUR_PM = "04:00 PM - 06:00 PM"
+
+    const val EMAIL = "EMAIL"
+    const val FIRST_NAME = "FIRST_NAME"
+    const val LAST_NAME = "LAST_NAME"
+    const val PASSWORD = "PASSWORD"
+
+    const val DEMO = "Demo"
 }

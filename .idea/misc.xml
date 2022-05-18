@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/A-M-Z/Backup/GitHup/UMCO/app/src/main/res/layout/activity_login.xml" value="0.2864471996579735" />
+        <entry key="..\:/A-M-Z/Backup/GitHup/UMCO/app/src/main/res/drawable/ic_search_custom.xml" value="0.235" />
+        <entry key="..\:/A-M-Z/Backup/GitHup/UMCO/app/src/main/res/layout/activity_account_settings.xml" value="0.22039473684210525" />
+        <entry key="..\:/A-M-Z/Backup/GitHup/UMCO/app/src/main/res/layout/activity_checkout.xml" value="0.22039473684210525" />
+        <entry key="..\:/A-M-Z/Backup/GitHup/UMCO/app/src/main/res/layout/activity_create_address.xml" value="0.22039473684210525" />
+        <entry key="..\:/A-M-Z/Backup/GitHup/UMCO/app/src/main/res/layout/activity_delivery_time.xml" value="0.22039473684210525" />
+        <entry key="..\:/A-M-Z/Backup/GitHup/UMCO/app/src/main/res/layout/activity_login.xml" value="0.22039473684210525" />
+        <entry key="..\:/A-M-Z/Backup/GitHup/UMCO/app/src/main/res/layout/activity_search.xml" value="0.22039473684210525" />
+        <entry key="..\:/A-M-Z/Backup/GitHup/UMCO/app/src/main/res/layout/activity_signup.xml" value="0.22039473684210525" />
         <entry key="..\:/A-M-Z/Backup/GitHup/UMCO/app/src/main/res/layout/activity_single_product.xml" value="0.2864471996579735" />
         <entry key="..\:/A-M-Z/Backup/GitHup/UMCO/app/src/main/res/layout/layout_favorite.xml" value="0.2864471996579735" />
         <entry key="..\:/Users/Ahmed/AndroidStudioProjects/UMCO/app/src/main/res/drawable/checkbox_state.xml" value="0.22833876221498373" />

@@ -19,7 +19,7 @@
 
 
     <!-- Login Screen -->
-    <string name="email_address">Email Address</string>
+    <string name="email_address">Email</string>
     <string name="password">Password</string>
     <string name="forgot_your_password">Forgot your password?</string>
     <string name="reset_password">Reset password</string>
@@ -29,6 +29,10 @@
     <string name="caption_reset_password">your recovery password will be sent to your registered email</string>
     <string name="don_t_have_an_account">Don\'t have an account?</string>
     <string name="create_new_account">Create new account</string>
+
+
+    <!-- Sign up -->
+    <string name="password_mismatch">Password doesn\'t match</string>
 
 
     <!-- Home Screen -->
@@ -83,7 +87,6 @@
     <string name="settings">Settings</string>
     <string name="logout">Logout</string>
     <string name="personal_information">Personal information</string>
-    <string name="first_name">First name</string>
     <string name="last_name">Last name</string>
     <string name="address">Address</string>
     <string name="post_code">Post Code</string>
@@ -196,6 +199,9 @@
     <string name="dummy">Product Hunt posting, digital E-vape tool. Product Hunt posting digital e-vape tool. DogeCoin buying growth hacker. Crypto-nerd Notion boyfriend. College Dropout, overenthusiastic founder.
 Figma using Tik-Toker libertarian. Roam Research girlfriend Medium blogger. Softbank-injected dropbox alternative. Substack blogging Thiel Fellow dropout.
 AngelList reading Beta-tester. Hypergrowth activist investor. Softbank-injected dropbox </string>
+    <string name="sign_up">Sign up</string>
+    <string name="first_name">First name</string>
+    <string name="confirm_password">Confirm password</string>
 
 
 </resources>

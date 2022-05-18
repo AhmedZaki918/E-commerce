@@ -2,6 +2,7 @@ package com.silkysys.umco.ui.adapter.home.viewholder
 
 import androidx.recyclerview.widget.RecyclerView
 import com.silkysys.umco.R
+import com.silkysys.umco.data.local.Constants
 import com.silkysys.umco.data.model.categories.descendant.Data
 import com.silkysys.umco.databinding.LayoutProductDescBinding
 import com.silkysys.umco.util.setupPicasso
@@ -19,7 +20,7 @@ class ProductDescViewHolder(
             } else setupPicasso(data.image_url, ivCategory)
         }
         itemView.setOnClickListener {
-            binding.root.context.toast(data.id.toString())
+            binding.root.context.toast(Constants.DEMO)
         }
     }
 }

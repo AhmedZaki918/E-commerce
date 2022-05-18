@@ -4,6 +4,7 @@ import android.view.View
 import android.view.View.*
 import androidx.lifecycle.ViewModelProvider
 import com.silkysys.umco.R
+import com.silkysys.umco.data.local.Constants
 import com.silkysys.umco.data.model.auth.login.LoginResponse
 import com.silkysys.umco.data.network.Resource
 import com.silkysys.umco.databinding.FragmentProfileBinding
@@ -32,7 +33,7 @@ class ProfileFragment : BaseFragment<FragmentProfileBinding>(FragmentProfileBind
         requireContext().apply {
             when (item.id) {
                 R.id.cv_my_orders -> startActivity(MyOrdersActivity::class.java)
-                R.id.cv_account_settings -> startActivity(AccountSettingsActivity::class.java)
+                R.id.cv_account_settings -> requireContext().toast(Constants.DEMO)
                 R.id.iv_back -> requireActivity().onBackPressed()
                 R.id.cv_auth -> {
                     // Check text on TextView if it's login, login else logout

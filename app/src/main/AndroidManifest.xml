@@ -14,23 +14,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UMCOAPP"
-        android:usesCleartextTraffic="true"
-        >
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ui.auth.signup.SignupActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.checkout.shipping.ShippingActivity"
             android:exported="false" />
         <activity
-            android:name="com.silkysys.umco.ui.checkout.address.UpdateAddressActivity"
+            android:name=".ui.checkout.address.UpdateAddressActivity"
             android:exported="false" />
         <activity
-            android:name="com.silkysys.umco.ui.checkout.address.UserAddressActivity"
+            android:name=".ui.checkout.address.UserAddressActivity"
             android:exported="false" />
         <activity
             android:name=".ui.checkout.summary.CheckoutActivity"
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
-            android:name="com.silkysys.umco.ui.checkout.summary.OrderSummaryActivity"
+            android:name=".ui.checkout.summary.OrderSummaryActivity"
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
@@ -42,7 +44,7 @@
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
-            android:name="com.silkysys.umco.ui.checkout.address.CreateAddressActivity"
+            android:name=".ui.checkout.address.CreateAddressActivity"
             android:exported="false"
             android:screenOrientation="locked" />
         <activity
