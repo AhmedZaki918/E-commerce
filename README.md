@@ -14,3 +14,14 @@
 e ecommerce app lets the users to buy products online.
 
 ## Screenshots
+
+-jjhjh
+-jkjkk
+-lkkk
+
+## Technologies
+
+#### Languages:
+- Kotlin 
+- Xml
+
