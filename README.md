@@ -8,3 +8,9 @@
 * [Setup](#setup)
 * [YouTube Link](#youtube-link)
 * [License](#license)
+
+## General info
+
+e ecommerce app lets the users to buy products online.
+
+## Screenshots
