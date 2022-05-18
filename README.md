@@ -12,7 +12,7 @@
 
 ## General info
 
-e ecommerce app lets the users to buy products online.
+This application allows the users to buy products online, implemented with all funtionality of e commerece applicaation(login, cart, favorite, order)
 
 ## Screenshots
 
