@@ -43,6 +43,7 @@ e ecommerce app lets the users to buy products online.
 - User authentication (login, signup, logout)
 - Products (sliders, categories, filter by category)
 - Cart (add, update, remove)
+- Favorite (add, remove)
 - Address (add, edit, save)
 - Select shipping method
 - Payment (Cash on delivery)
