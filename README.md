@@ -25,3 +25,6 @@ e ecommerce app lets the users to buy products online.
 - Kotlin 
 - Xml
 
+#### Architecture patterns:
+- MVVM
+
