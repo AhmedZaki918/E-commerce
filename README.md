@@ -61,8 +61,8 @@ e ecommerce app lets the users to buy products online.
 
 To run this project, install it by download or clone.
 Then login using this data to test:
-username: mohamedzaki
-password: 12345
+username [mohamedzaki]
+password [12345]
 
 #### System requirements
 - Android Studio Chipmunk | 2021.2.1
