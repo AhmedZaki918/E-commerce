@@ -12,7 +12,7 @@
 
 ## General info
 
-This application allows the users to buy products online, implemented with all funtionality of e commerece applicaation (login, signup, cart, favorite, address, shipping, payment and order)
+This application allows the users to buy products online, implemented with all functionality of e commerce application  (login, signup, cart, favorite, address, shipping, payment and order)
 
 ## Screenshots
 
