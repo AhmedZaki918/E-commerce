@@ -72,8 +72,8 @@ This application allows the users to buy products online, implemented with all f
 
 To run this project, install it by download or clone.
 Then login using this data to test:
-username [mohamedzaki]
-password [12345]
+username [demo13@demo13.com]
+password [123456]
 
 #### System requirements
 - Android Studio Chipmunk | 2021.2.1
